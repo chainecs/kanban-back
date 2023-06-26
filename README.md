@@ -7,3 +7,7 @@ Run cmd fowlling:
 1. npm install
 2. npm run start:dev:server
 3. npm run start
+
+# API Document
+
+API Document is already stored in root folder (API DOC.pdf)
