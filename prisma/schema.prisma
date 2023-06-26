@@ -1,0 +1,22 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Ticket {
+  id              Int      @id @default(autoincrement())
+  title           String
+  description     String
+  email           String
+  phone           String
+  lineId          String?
+  status          String   
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt //(Prisma Syntax) automatic update when record is changed.
+  createdTimestamp  Int     
+  updatedTimestamp  Int 
+}
