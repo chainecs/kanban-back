@@ -10,4 +10,7 @@ Run cmd fowlling:
 
 # API Document
 
-API Document is already stored in root folder (API DOC.pdf)
+API Document is already stored my Google Drive 
+
+You can download by using this link:
+https://drive.google.com/file/d/1VP8HV4EIroVtsD5G9wQnUtncf5kGv8WO/view?usp=sharing
