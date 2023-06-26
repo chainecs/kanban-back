@@ -13,7 +13,7 @@
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
     "start:dev": "nodemon",
-    "start:dev:server": "docker compose up dev-db -d && npx prisma migrate dev && nodemon",
+    "start:dev:server": "docker compose up dev-db -d && npx prisma migrate dev ",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
